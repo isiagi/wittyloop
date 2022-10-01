@@ -20,3 +20,6 @@ function App() {
 }
 
 export default App;
+
+
+// v=spf1 include:spf.efwd.registrar-servers.com ~all
