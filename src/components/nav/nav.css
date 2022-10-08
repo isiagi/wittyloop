@@ -1,0 +1,28 @@
+.nav__container {
+    min-height: 10vh;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+.nav__container h1 {
+    color: #108AF9;
+}
+
+.nav__wrapper {
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.nav__ul > ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav__ul > ul li {
+    width: 150px;
+}
