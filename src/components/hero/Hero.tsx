@@ -27,7 +27,7 @@ const slideImages = [
 
 const Hero = (props: Props) => {
   return (
-    <div style={{ width: "100%", height: "100%" }}>
+    <div style={{ width: "100%", height: "100%", background: "#02B1E3" }}>
       <Fade autoplay={true} infinite={false}>
         {slideImages.map((slideImage, index) => (
           <div className="each-slide" key={index}>
@@ -41,6 +41,7 @@ const Hero = (props: Props) => {
                 display: 'flex',
                 alignItems: "center",
                 justifyContent: "center",
+                clipPath: "polygon(0 0, 100% 0, 100% 87%, 0 100%)"
               }}
             >
               <span style={{fontSize: '2.5em', color: "#FFF"}}>{slideImage.caption}</span>
