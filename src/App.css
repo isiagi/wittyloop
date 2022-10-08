@@ -4,20 +4,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  min-height: 100vh;
-  line-height: 4rem;
-  background: rgb(39, 13, 167);
-  background: linear-gradient(
-    90deg,
-    rgba(39, 13, 167, 0.7049194677871149) 0%,
-    rgba(194, 0, 255, 0.7833508403361344) 99%,
-    rgba(121, 119, 9, 1) 100%
-  );
-  font-size: 1.2em;
-  color: #fff;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
