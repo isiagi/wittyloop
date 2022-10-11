@@ -1,0 +1,37 @@
+.service__container {
+  background: #f8f9fa;
+  min-height: 90vh;
+}
+
+.service__container h2 {
+    color: #212529;
+    text-align: center;
+    margin-block: 48px;
+}
+
+.service__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.service__item {
+  max-width: 400px;
+  text-align: center;
+}
+
+.service__item h2 {
+  color: #02b1e3 !important;
+}
+
+.service__item p {
+    color: #32373d;
+    line-height: 35px;
+  }
+
+.service__icon {
+  font-size: 2rem;
+  color: #02b1e3 !important;
+}
