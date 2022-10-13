@@ -1,0 +1,130 @@
+.footer__container {
+  background-color: #333f48;
+  min-height: 55vh;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+}
+
+.footer__wrapper__text {
+  max-width: 400px;
+}
+
+.footer__wrapper1 {
+  display: flex;
+  align-items: center;
+}
+
+.footer__img > img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.footer__wrapper h3 {
+  color: #ffffff;
+  padding-block: 1.5rem;
+}
+
+.footer__wrapper__text p {
+  color: #a1aaad;
+  font-size: 15px;
+  line-height: 1.7rem;
+}
+
+.footer__ul {
+  color: #ededed;
+}
+
+.footer__ul ul li {
+  list-style: none;
+  padding-bottom: 0.7rem;
+}
+
+.contact__input {
+  height: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.contact__inpu {
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.contact__inpu textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  background-color: #333f48;
+  color: #fff;
+  font-size: 15px;
+}
+
+.contact__input .input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  background-color: #333f48;
+  color: #fff;
+  font-size: 15px;
+}
+
+.contact__input .input__label {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+}
+
+.contact__inpu label {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+}
+
+.contact__input .input:focus ~ .input__label,
+.contact__input .input:valid ~ .input__label {
+  transform: translateY(-20px);
+}
+
+.contact__inpu textarea:focus ~ label,
+.contact__inpu textarea:valid ~ label {
+  transform: translateY(-20px);
+}
+
+.footer__submit {
+  background-color: #40aeef;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.last__container {
+  background-color: #2b363d;
+  min-height: 11vh;
+}
+
+.last__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  height: 11vh;
+}
