@@ -1,14 +1,22 @@
 .why__container {
-  min-height: 100vh;
-  background-color: #02b1e3;
-  clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+  min-height: 80vh;
+  /* background-color: #02b1e3; */
+  background-color: #fff;
+  /* clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%); */
   z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  padding:0 40px;
 }
 
 .why__head > h1 {
-  padding: 40px 0;
-  text-align: center;
-  color: #fff;
+  color: #4e5760;
+  font-weight: 400;
+  font-size: 1.8em;
 }
 
 .why__wrapper {
@@ -16,15 +24,16 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
 }
 
 .why__card {
-  max-width: 400px;
+  max-width: 230px;
   text-align: center;
   background-color: #fff;
   padding: 40px 0;
   color: #212529;
+  border: 1px solid rgb(199, 197, 197);
 }
 
 .why__card > h1 {
@@ -36,12 +45,20 @@
 }
 
 .why__icon {
-  font-size: 40px;
+  font-size: 25px;
   color: #02b1e3;
+  font-weight: 200;
+}
+
+.sliderz {
+  background-color: #02b1e3;
+  width: 15%;
+  height: 4px;
+  margin-block: 1rem;
 }
 
 @media screen and (max-width: 991px) {
-  .why__container {
+  /* .why__container {
     clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
-  }
+  } */
 }
