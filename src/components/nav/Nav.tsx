@@ -1,6 +1,7 @@
 import React from "react";
 import { MdTableRows } from "react-icons/md";
 import { GiCancel } from "react-icons/gi";
+import logo from '../../assets/logo.png'
 import "./nav.css";
 
 type Props = {};
@@ -19,14 +20,14 @@ const Nav = (props: Props) => {
     <div className={offSet > 40 ? "nav__container1" : "nav__container"}>
       <div className="nav__wrapper">
         <div className="nav__head">
-          <h1>WittyLoop</h1>
+          <img src={logo} alt='wittyloop_logo' className="witty__logo" /> 
         </div>
         <div className={`${"nav__ul"} ${open ? "active" : ""}`}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <li className="nav__link">Home</li>
+            <li className="nav__link">About</li>
+            <li className="nav__link">Services</li>
+            <li className="nav__link">Contact</li>
           </ul>
         </div>
         <div className="nav__icons">
