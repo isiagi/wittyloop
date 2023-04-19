@@ -2,6 +2,10 @@ import React from "react";
 import { AiOutlineWindows } from "react-icons/ai";
 import {GrAnalytics} from 'react-icons/gr'
 
+import img1 from "../../assets/web.jpg";
+import img2 from "../../assets/cloud.jpg";
+import img3 from "../../assets/mobile.jpg";
+
 import './services.css'
 
 type Props = {};
@@ -9,11 +13,11 @@ type Props = {};
 const Services = (props: Props) => {
   return (
     <div className="service__container">
-      <h2 style={{color: '#212529'}}>Our Services</h2>
+      <h2 style={{color: '#212529', fontSize: '2.4em', paddingBlock: '1em'}}>Our Services</h2>
       <div className="service__wrapper">
         <div className="service__item">
-          <AiOutlineWindows className="service__icon"/>
-          <h2>Mobile, Web App And Websites Development</h2>
+          <img src={img1} alt="" className="service__image"/>
+          <h2>Web App And Websites Development</h2>
           <p>
             We develop customer mobile and web apps like e-commerce, management
             systems and we also build websites for put your business out to the
@@ -21,8 +25,8 @@ const Services = (props: Props) => {
           </p>
         </div>
         <div className="service__item">
-          <GrAnalytics className="service__icon"/>
-          <h2>Data Analysis And Presentation</h2>
+        <img src={img2} alt="" className="service__image"/>
+          <h2>Cloud / Cloud Native Development</h2>
           <p>
             We develop customer mobile and web apps like e-commerce, management
             systems and we also build websites for put your business out to the
@@ -30,8 +34,8 @@ const Services = (props: Props) => {
           </p>
         </div>
         <div className="service__item">
-          <AiOutlineWindows className="service__icon"/>
-          <h2>Machine Learning And Artificial Intelligence</h2>
+        <img src={img3} alt="" className="service__image"/>
+          <h2>Mobile Development</h2>
           <p>
             We develop customer mobile and web apps like e-commerce, management
             systems and we also build websites for put your business out to the
