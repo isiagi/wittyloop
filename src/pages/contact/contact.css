@@ -1,0 +1,46 @@
+
+
+.contact__one {
+  padding: 15px;
+  width: 90%;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid rgb(199, 197, 197);
+  font-size: 15px;
+}
+
+.contact__wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 0 40px;
+  gap: 20px;
+}
+
+.contact__form {
+  background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact__item {
+    text-align: center;
+}
+
+.contact__card {
+    background-color: white;
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.8rem;
+}
+
+.contact__icon{
+    color: green;
+    font-size: 2.3rem;
+}
+
+.contact__card > h3 {
+    color:#333F48;
+    font-weight: 500;
+}
+

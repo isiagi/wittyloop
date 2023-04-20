@@ -54,6 +54,10 @@
     font-size: 24px;
 }
 
+.activez {
+  color: #CDE220;
+}
+
 @media screen and (max-width: 991px) {
   .nav__icons {
     display: block;

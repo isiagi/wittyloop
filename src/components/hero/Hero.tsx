@@ -7,6 +7,7 @@ import img2 from "../../assets/cloud.jpg";
 import img3 from "../../assets/mobile.jpg";
 
 import "./hero.css";
+import Button from "../button/Button";
 
 type Props = {};
 
@@ -56,6 +57,7 @@ const Hero = (props: Props) => {
                 <span style={{ fontSize: "1.2em", color: "#FFF" }}>
                   <p>{slideImage.text}</p>
                   </span>
+                  <Button txColor="white" out="green" bgColor="green" name={"Get Started"}/>
               </div>
             </div>
           </div>

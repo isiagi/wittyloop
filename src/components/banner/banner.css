@@ -1,0 +1,21 @@
+.banner__container {
+  background-color: #71d8a3;
+  padding: 30px 0;
+}
+
+.banner__wrapper {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.banner__wrapper h1 {
+  color: #333f48;
+  font-weight: 500;
+}
+
+.banner__wrapper p {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+  padding-top: 10px ;
+}
